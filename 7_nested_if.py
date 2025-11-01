@@ -154,3 +154,317 @@ print(f"{p2}'s zodiac sign is {zs2}")
 
 print(p1, "->", zs1)
 print(p2, "->", zs2)
+
+
+
+# 1
+if (zs1 == "Aries" and zs2 == "Aries") or (zs2 == "Aries" and zs1 == "Aries"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Leo") or (zs2 == "Aries" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Sagittarius") or (zs2 == "Aries" and zs1 == "Sagittarius"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Taurus") or (zs2 == "Aries" and zs1 == "Taurus"):
+    print("No")
+elif (zs1 == "Aries" and zs2 == "Virgo") or (zs2 == "Aries" and zs1 == "Virgo"):
+    print("Good")
+elif (zs1 == "Aries" and zs2 == "Capricorn") or (zs2 == "Aries" and zs1 == "Capricorn"):
+    print("No")
+elif (zs1 == "Aries" and zs2 == "Gemini") or (zs2 == "Aries" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Libra") or (zs2 == "Aries" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Aquarius") or (zs2 == "Aries" and zs1 == "Aquarius"):
+    print("Great")
+elif (zs1 == "Aries" and zs2 == "Cancer") or (zs2 == "Aries" and zs1 == "Cancer"):
+    print("No")
+elif (zs1 == "Aries" and zs2 == "Scorpio") or (zs2 == "Aries" and zs1 == "Scorpio"):
+    print("No")
+elif (zs1 == "Aries" and zs2 == "Pisces") or (zs2 == "Aries" and zs1 == "Pisces"):
+    print("Good")
+
+# 2
+elif (zs1 == "Leo" and zs2 == "Aries") or (zs2 == "Leo" and zs1 == "Aries"):
+    print("Great")
+elif (zs1 == "Leo" and zs2 == "Leo") or (zs2 == "Leo" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Leo" and zs2 == "Sagittarius") or (zs2 == "Leo" and zs1 == "Sagittarius"):
+    print("Great")
+elif (zs1 == "Leo" and zs2 == "Taurus") or (zs2 == "Leo" and zs1 == "Taurus"):
+    print("Good")
+elif (zs1 == "Leo" and zs2 == "Virgo") or (zs2 == "Leo" and zs1 == "Virgo"):
+    print("No")
+elif (zs1 == "Leo" and zs2 == "Capricorn") or (zs2 == "Leo" and zs1 == "Capricorn"):
+    print("No")
+elif (zs1 == "Leo" and zs2 == "Gemini") or (zs2 == "Leo" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Leo" and zs2 == "Libra") or (zs2 == "Leo" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Leo" and zs2 == "Aquarius") or (zs2 == "Leo" and zs1 == "Aquarius"):
+    print("Good")
+elif (zs1 == "Leo" and zs2 == "Cancer") or (zs2 == "Leo" and zs1 == "Cancer"):
+    print("Good")
+elif (zs1 == "Leo" and zs2 == "Scorpio") or (zs2 == "Leo" and zs1 == "Scorpio"):
+    print("Good")
+elif (zs1 == "Leo" and zs2 == "Pisces") or (zs2 == "Leo" and zs1 == "Pisces"):
+    print("Good")
+
+# 3
+elif (zs1 == "Sagittarius" and zs2 == "Aries") or (zs2 == "Sagittarius" and zs1 == "Aries"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Leo") or (zs2 == "Sagittarius" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Sagittarius") or (zs2 == "Sagittarius" and zs1 == "Sagittarius"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Taurus") or (zs2 == "Sagittarius" and zs1 == "Taurus"):
+    print("No")
+elif (zs1 == "Sagittarius" and zs2 == "Virgo") or (zs2 == "Sagittarius" and zs1 == "Virgo"):
+    print("No")
+elif (zs1 == "Sagittarius" and zs2 == "Capricorn") or (zs2 == "Sagittarius" and zs1 == "Capricorn"):
+    print("No")
+elif (zs1 == "Sagittarius" and zs2 == "Gemini") or (zs2 == "Sagittarius" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Libra") or (zs2 == "Sagittarius" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Aquarius") or (zs2 == "Sagittarius" and zs1 == "Aquarius"):
+    print("Great")
+elif (zs1 == "Sagittarius" and zs2 == "Cancer") or (zs2 == "Sagittarius" and zs1 == "Cancer"):
+    print("Good")
+elif (zs1 == "Sagittarius" and zs2 == "Scorpio") or (zs2 == "Sagittarius" and zs1 == "Scorpio"):
+    print("Good")
+elif (zs1 == "Sagittarius" and zs2 == "Pisces") or (zs2 == "Sagittarius" and zs1 == "Pisces"):
+    print("Good")
+
+# 4
+elif (zs1 == "Taurus" and zs2 == "Aries") or (zs2 == "Taurus" and zs1 == "Aries"):
+    print("No")
+elif (zs1 == "Taurus" and zs2 == "Leo") or (zs2 == "Taurus" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Taurus" and zs2 == "Sagittarius") or (zs2 == "Taurus" and zs1 == "Sagittarius"):
+    print("No")
+elif (zs1 == "Taurus" and zs2 == "Taurus") or (zs2 == "Taurus" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Taurus" and zs2 == "Virgo") or (zs2 == "Taurus" and zs1 == "Virgo"):
+    print("Great")
+elif (zs1 == "Taurus" and zs2 == "Capricorn") or (zs2 == "Taurus" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Taurus" and zs2 == "Gemini") or (zs2 == "Taurus" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Taurus" and zs2 == "Libra") or (zs2 == "Taurus" and zs1 == "Libra"):
+    print("Good")
+elif (zs1 == "Taurus" and zs2 == "Aquarius") or (zs2 == "Taurus" and zs1 == "Aquarius"):
+    print("No")
+elif (zs1 == "Taurus" and zs2 == "Cancer") or (zs2 == "Taurus" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Taurus" and zs2 == "Scorpio") or (zs2 == "Taurus" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Taurus" and zs2 == "Pisces") or (zs2 == "Taurus" and zs1 == "Pisces"):
+    print("Great")
+
+# 5
+elif (zs1 == "Virgo" and zs2 == "Aries") or (zs2 == "Virgo" and zs1 == "Aries"):
+    print("No")
+elif (zs1 == "Virgo" and zs2 == "Leo") or (zs2 == "Virgo" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Virgo" and zs2 == "Sagittarius") or (zs2 == "Virgo" and zs1 == "Sagittarius"):
+    print("No")
+elif (zs1 == "Virgo" and zs2 == "Taurus") or (zs2 == "Virgo" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Virgo" and zs2 == "Virgo") or (zs2 == "Virgo" and zs1 == "Virgo"):
+    print("Great")
+elif (zs1 == "Virgo" and zs2 == "Capricorn") or (zs2 == "Virgo" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Virgo" and zs2 == "Gemini") or (zs2 == "Virgo" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Virgo" and zs2 == "Libra") or (zs2 == "Virgo" and zs1 == "Libra"):
+    print("No")
+elif (zs1 == "Virgo" and zs2 == "Aquarius") or (zs2 == "Virgo" and zs1 == "Aquarius"):
+    print("Good")
+elif (zs1 == "Virgo" and zs2 == "Cancer") or (zs2 == "Virgo" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Virgo" and zs2 == "Scorpio") or (zs2 == "Virgo" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Virgo" and zs2 == "Pisces") or (zs2 == "Virgo" and zs1 == "Pisces"):
+    print("Good+No")
+
+# 6
+elif (zs1 == "Capricorn" and zs2 == "Aries") or (zs2 == "Capricorn" and zs1 == "Aries"):
+    print("No")
+elif (zs1 == "Capricorn" and zs2 == "Leo") or (zs2 == "Capricorn" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Capricorn" and zs2 == "Sagittarius") or (zs2 == "Capricorn" and zs1 == "Sagittarius"):
+    print("No")
+elif (zs1 == "Capricorn" and zs2 == "Taurus") or (zs2 == "Capricorn" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Capricorn" and zs2 == "Virgo") or (zs2 == "Capricorn" and zs1 == "Virgo"):
+    print("Great")
+elif (zs1 == "Capricorn" and zs2 == "Capricorn") or (zs2 == "Capricorn" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Capricorn" and zs2 == "Gemini") or (zs2 == "Capricorn" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Capricorn" and zs2 == "Libra") or (zs2 == "Capricorn" and zs1 == "Libra"):
+    print("Good")
+elif (zs1 == "Capricorn" and zs2 == "Aquarius") or (zs2 == "Capricorn" and zs1 == "Aquarius"):
+    print("No")
+elif (zs1 == "Capricorn" and zs2 == "Cancer") or (zs2 == "Capricorn" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Capricorn" and zs2 == "Scorpio") or (zs2 == "Capricorn" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Capricorn" and zs2 == "Pisces") or (zs2 == "Capricorn" and zs1 == "Pisces"):
+    print("Great")
+
+# 7
+elif (zs1 == "Gemini" and zs2 == "Aries") or (zs2 == "Gemini" and zs1 == "Aries"):
+    print("Great")
+elif (zs1 == "Gemini" and zs2 == "Leo") or (zs2 == "Gemini" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Gemini" and zs2 == "Sagittarius") or (zs2 == "Gemini" and zs1 == "Sagittarius"):
+    print("Good")
+elif (zs1 == "Gemini" and zs2 == "Taurus") or (zs2 == "Gemini" and zs1 == "Taurus"):
+    print("No")
+elif (zs1 == "Gemini" and zs2 == "Virgo") or (zs2 == "Gemini" and zs1 == "Virgo"):
+    print("Good")
+elif (zs1 == "Gemini" and zs2 == "Capricorn") or (zs2 == "Gemini" and zs1 == "Capricorn"):
+    print("Good")
+elif (zs1 == "Gemini" and zs2 == "Gemini") or (zs2 == "Gemini" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Gemini" and zs2 == "Libra") or (zs2 == "Gemini" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Gemini" and zs2 == "Aquarius") or (zs2 == "Gemini" and zs1 == "Aquarius"):
+    print("Great")
+elif (zs1 == "Gemini" and zs2 == "Cancer") or (zs2 == "Gemini" and zs1 == "Cancer"):
+    print("No")
+elif (zs1 == "Gemini" and zs2 == "Scorpio") or (zs2 == "Gemini" and zs1 == "Scorpio"):
+    print("No")
+elif (zs1 == "Gemini" and zs2 == "Pisces") or (zs2 == "Gemini" and zs1 == "Pisces"):
+    print("No")
+
+# 8
+elif (zs1 == "Libra" and zs2 == "Aries") or (zs2 == "Libra" and zs1 == "Aries"):
+    print("Good")
+elif (zs1 == "Libra" and zs2 == "Leo") or (zs2 == "Libra" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Libra" and zs2 == "Sagittarius") or (zs2 == "Libra" and zs1 == "Sagittarius"):
+    print("Great")
+elif (zs1 == "Libra" and zs2 == "Taurus") or (zs2 == "Libra" and zs1 == "Taurus"):
+    print("Good")
+elif (zs1 == "Libra" and zs2 == "Virgo") or (zs2 == "Libra" and zs1 == "Virgo"):
+    print("No")
+elif (zs1 == "Libra" and zs2 == "Capricorn") or (zs2 == "Libra" and zs1 == "Capricorn"):
+    print("No")
+elif (zs1 == "Libra" and zs2 == "Gemini") or (zs2 == "Libra" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Libra" and zs2 == "Libra") or (zs2 == "Libra" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Libra" and zs2 == "Aquarius") or (zs2 == "Libra" and zs1 == "Aquarius"):
+    print("Great")
+elif (zs1 == "Libra" and zs2 == "Cancer") or (zs2 == "Libra" and zs1 == "Cancer"):
+    print("No")
+elif (zs1 == "Libra" and zs2 == "Scorpio") or (zs2 == "Libra" and zs1 == "Scorpio"):
+    print("No")
+elif (zs1 == "Libra" and zs2 == "Pisces") or (zs2 == "Libra" and zs1 == "Pisces"):
+    print("Good")
+
+# 9
+elif (zs1 == "Aquarius" and zs2 == "Aries") or (zs2 == "Aquarius" and zs1 == "Aries"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Leo") or (zs2 == "Aquarius" and zs1 == "Leo"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Sagittarius") or (zs2 == "Aquarius" and zs1 == "Sagittarius"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Taurus") or (zs2 == "Aquarius" and zs1 == "Taurus"):
+    print("No")
+elif (zs1 == "Aquarius" and zs2 == "Virgo") or (zs2 == "Aquarius" and zs1 == "Virgo"):
+    print("No")
+elif (zs1 == "Aquarius" and zs2 == "Capricorn") or (zs2 == "Aquarius" and zs1 == "Capricorn"):
+    print("No")
+elif (zs1 == "Aquarius" and zs2 == "Gemini") or (zs2 == "Aquarius" and zs1 == "Gemini"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Libra") or (zs2 == "Aquarius" and zs1 == "Libra"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Aquarius") or (zs2 == "Aquarius" and zs1 == "Aquarius"):
+    print("Great")
+elif (zs1 == "Aquarius" and zs2 == "Cancer") or (zs2 == "Aquarius" and zs1 == "Cancer"):
+    print("No")
+elif (zs1 == "Aquarius" and zs2 == "Scorpio") or (zs2 == "Aquarius" and zs1 == "Scorpio"):
+    print("Good")
+elif (zs1 == "Aquarius" and zs2 == "Pisces") or (zs2 == "Aquarius" and zs1 == "Pisces") :
+    print("Good")
+
+# 10
+elif (zs1 == "Cancer" and zs2 == "Aries") or (zs2 == "Cancer" and zs1 == "Aries"):
+    print("No")
+elif (zs1 == "Cancer" and zs2 == "Leo") or (zs2 == "Cancer" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Cancer" and zs2 == "Sagittarius") or (zs2 == "Cancer" and zs1 == "Sagittarius"):
+    print("Good")
+elif (zs1 == "Cancer" and zs2 == "Taurus") or (zs2 == "Cancer" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Cancer" and zs2 == "Virgo") or (zs2 == "Cancer" and zs1 == "Virgo"):
+    print("Great")
+elif (zs1 == "Cancer" and zs2 == "Capricorn") or (zs2 == "Cancer" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Cancer" and zs2 == "Gemini") or (zs2 == "Cancer" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Cancer" and zs2 == "Libra") or (zs2 == "Cancer" and zs1 == "Libra"):
+    print("No")
+elif (zs1 == "Cancer" and zs2 == "Aquarius") or (zs2 == "Cancer" and zs1 == "Aquarius"):
+    print("No")
+elif (zs1 == "Cancer" and zs2 == "Cancer") or (zs2 == "Cancer" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Cancer" and zs2 == "Scorpio") or (zs2 == "Cancer" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Cancer" and zs2 == "Pisces") or (zs2 == "Cancer" and zs1 == "Pisces"):
+    print("Great")
+
+# 11
+elif (zs1 == "Scorpio" and zs2 == "Aries") or (zs2 == "Scorpio" and zs1 == "Aries"):
+    print("Good")
+elif (zs1 == "Scorpio" and zs2 == "Leo") or (zs2 == "Scorpio" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Scorpio" and zs2 == "Sagittarius") or (zs2 == "Scorpio" and zs1 == "Sagittarius"):
+    print("No")
+elif (zs1 == "Scorpio" and zs2 == "Taurus") or (zs2 == "Scorpio" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Scorpio" and zs2 == "Virgo") or (zs2 == "Scorpio" and zs1 == "Virgo"):
+    print("Great")
+elif (zs1 == "Scorpio" and zs2 == "Capricorn") or (zs2 == "Scorpio" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Scorpio" and zs2 == "Gemini") or (zs2 == "Scorpio" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Scorpio" and zs2 == "Libra") or (zs2 == "Scorpio" and zs1 == "Libra"):
+    print("No")
+elif (zs1 == "Scorpio" and zs2 == "Aquarius") or (zs2 == "Scorpio" and zs1 == "Aquarius"):
+    print("No")
+elif (zs1 == "Scorpio" and zs2 == "Cancer") or (zs2 == "Scorpio" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Scorpio" and zs2 == "Scorpio") or (zs2 == "Scorpio" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Scorpio" and zs2 == "Pisces") or (zs2 == "Scorpio" and zs1 == "Pisces"):
+    print("Great")
+
+# 12
+elif (zs1 == "Pisces" and zs2 == "Aries") or (zs2 == "Pisces" and zs1 == "Aries"):
+    print("Good")
+elif (zs1 == "Pisces" and zs2 == "Leo") or (zs2 == "Pisces" and zs1 == "Leo"):
+    print("Good")
+elif (zs1 == "Pisces" and zs2 == "Sagittarius") or (zs2 == "Pisces" and zs1 == "Sagittarius"):
+    print("Good")
+elif (zs1 == "Pisces" and zs2 == "Taurus") or (zs2 == "Pisces" and zs1 == "Taurus"):
+    print("Great")
+elif (zs1 == "Pisces" and zs2 == "Virgo") or (zs2 == "Pisces" and zs1 == "Virgo"):
+    print("Good")
+elif (zs1 == "Pisces" and zs2 == "Capricorn") or (zs2 == "Pisces" and zs1 == "Capricorn"):
+    print("Great")
+elif (zs1 == "Pisces" and zs2 == "Gemini") or (zs2 == "Pisces" and zs1 == "Gemini"):
+    print("No")
+elif (zs1 == "Pisces" and zs2 == "Libra") or (zs2 == "Pisces" and zs1 == "Libra"):
+    print("No")
+elif (zs1 == "Pisces" and zs2 == "Aquarius") or (zs2 == "Pisces" and zs1 == "Aquarius"):
+    print("No")
+elif (zs1 == "Pisces" and zs2 == "Cancer") or (zs2 == "Pisces" and zs1 == "Cancer"):
+    print("Great")
+elif (zs1 == "Pisces" and zs2 == "Scorpio") or (zs2 == "Pisces" and zs1 == "Scorpio"):
+    print("Great")
+elif (zs1 == "Pisces" and zs2 == "Pisces") or (zs2 == "Pisces" and zs1 == "Pisces"):
+    print("Great")
